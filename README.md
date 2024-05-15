@@ -55,7 +55,7 @@ Add ENV file for backend
 Start the backend server
 .... ``npm start`` ....
 
-# Fronend setup
+# Frontend setup
 
 `1st Step`
 Go to frontend file
