@@ -2,15 +2,19 @@
 The College Management System is a MERN Stack-based system with three different login portals for students, faculty, and admin.
 
 # Tech Stack
-Client: React, Redux, TailwindCSS
+Client: React, Redux, MUI
 
 Server: Node, Express
 
 Database: MongoDB
 
 # Student Features
+Profile: Access to see profile details
 Marks: Access to view marks for courses
 Notices: Access to view notices
+Placement: Access to view companies and apply for placement
+Complain: Create complain
+Payment: You can easily pay your fee
 
 # Faculty Features
 Student Details: Ability for faculty to view student details
@@ -33,7 +37,35 @@ Clone the repo or download zip file
 Go to clone file
 .... `cd College-management-system` ....
 
+# Backend setup
+
+`3rd Step`
+Go to backend file
 .... ``cd backend`` ....
+
+`4th Step`
+Install node dependencies
 .... ``npm i`` ....
-Add ``.env`` file
+
+`5th step`
+Add ENV file for backend
+....``.env`` ....
+
+`6th Step`
+Start the backend server
 .... ``npm start`` ....
+
+# Fronend setup
+
+`1st Step`
+Go to frontend file
+.... ``cd frontend`` ....
+
+`2nd Step`
+Install node dependencies
+.... ``npm i`` ....
+
+
+`3rd Step`
+Start the frontend server
+.... ``npm run dev`` ....
