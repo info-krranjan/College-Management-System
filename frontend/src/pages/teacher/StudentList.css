@@ -1,0 +1,40 @@
+/* UserList.css */
+
+.user-list-container {
+    margin: 20px;
+  }
+  
+  .user-list-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .user-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  .user-list-table th, .user-list-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd; /* Add right border */
+  }
+  
+  .user-list-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .user-list-table tbody tr:last-child td {
+    border-bottom: none; /* Remove bottom border from last row */
+  }
+  
+  .user-list-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .user-list-table tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+  
