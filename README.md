@@ -23,3 +23,17 @@ Account Creation: Ability for admins to add new students, faculty, and admin acc
 Account Details Modification: Ability for admins to modify the details of each account
 Subject Management: Ability for admins to add/edit subjects
 Notices Management: Ability for admins to add/edit notices
+
+# Installation
+
+`1st Step`
+Clone the repo or download zip file
+
+`2nd Step`
+Go to clone file
+.... `cd College-management-system` ....
+
+.... cd backend ....
+.... npm i ....
+Add .env file
+.... npm start ....
